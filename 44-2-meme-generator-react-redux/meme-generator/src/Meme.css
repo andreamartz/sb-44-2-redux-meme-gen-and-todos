@@ -1,0 +1,41 @@
+.Meme-imgContainer {
+  position: relative;
+  max-width: 350px;
+  max-height: 350px;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.Meme-img {
+  object-fit: contain;
+}
+
+.Meme-topText,
+.Meme-bottomText {
+  /* display: block; */
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  left: 50%;
+  /* right: 0; */
+  text-shadow: 3px 3px 0 var(--black), -1px -1px 0 var(--black),
+    1px -1px 0 var(--black), -1px 1px 0 var(--black), 1px 1px 0 var(--black);
+  transform: translate(-50%, 0);
+  z-index: 10;
+  width: calc(100% - 14px);
+}
+
+.Meme-topText {
+  top: 1rem;
+}
+
+.Meme-bottomText {
+  bottom: 1.25rem;
+}
+
+.Meme-deleteBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* transform: translate(-50%, 0); */
+}

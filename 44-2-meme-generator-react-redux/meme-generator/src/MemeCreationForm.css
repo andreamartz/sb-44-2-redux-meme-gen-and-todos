@@ -1,0 +1,8 @@
+.MemeCreationForm {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  min-width: 350px;
+}
+
+.MemeCreationForm-Card {}
