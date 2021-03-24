@@ -1,0 +1,22 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --gray: #eee;
+  --white: #fff;
+  --black: #000;
+  --blue: #29f;
+}
+
+/* App */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
