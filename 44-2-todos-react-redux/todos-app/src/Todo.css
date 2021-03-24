@@ -1,0 +1,15 @@
+.Todo {
+  list-style: none;
+  /* text-align: left; */
+}
+
+.Todo-task {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.Todo-deleteBtn {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* right: 0; */
+}
